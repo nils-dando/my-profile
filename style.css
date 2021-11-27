@@ -1,0 +1,108 @@
+body {
+	background-color: rgb(220, 220, 220);
+	font-family: 'Shippori Antique', sans-serif;
+	font-size: 20px;
+
+}
+
+h1, h2 {
+	font-family: 'Lusitana', serif;
+}
+
+h1 {
+	color: black;
+	font-weight: 500px;
+	letter-spacing: 10px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+h2{
+	color: green;
+}
+
+a {
+	color: orange;
+}
+a:hover {
+	color: blueviolet;
+}
+
+p {
+	color: black;
+	font-size: 15px;
+	font-family: 'Shippori Antique', sans-serif;
+}
+
+.container {
+	width: 700px;
+	margin: 20px auto;
+}
+
+
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	border-radius: 20px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: orange;
+	color: white;
+padding: 15px 23px;
+border-radius: 20px;
+}
+.btn-blue:hover {
+      background-color: red;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: black;
+}
+.list-inline i:hover {
+	font-size: 50px;
+	color: blueviolet;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+@media (max-width: 960px) {
+  
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+ 
+  .container {
+    width: 300px;
+  }
+}
